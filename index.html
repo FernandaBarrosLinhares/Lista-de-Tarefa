@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lista de tarefas com manipulação do DOM e eventos">
+    <meta name="keywords" content="HTML, CSS, JavaScript, SEO">
+    <meta name="author" content="Fernanda Linhares">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header></header>
+        <h1>Minha Lista de Tarefas</h1>
+        <input type="text"id="tarefaInput" placeholder="Adicione uma nova tarefa">
+        <button id="adicionarTarefa">Adicionar</button>
+        <ul id="listaDeTarefas"></ul>
+    </div>
+    <script>
+
+        document.getElementById('adicionarTarefa').addEventListener("click",function(){
+            var input= document.getElementById('tarefaInput')
+            var novaTarefa=input.value.trim();
+            if(novaTarefa.length){
+                var lista = document.getElementById('listaDeTarefas');
+                var item =document.createElement('li');
+                item.textContent =novaTarefa;
+                item.addEventListener('click',function(){
+                    item.classList.toogle('done')
+                });
+                lista.appendChild(item);
+                input.value= '';
+            }else{
+                alert('Digite uma tarefa')
+            }
+        });
+
+        document.getElementById('tarefaInput').addEventListener('keyPress',function(e){
+            if(e.keyCode == 'Enter'){
+                document.getElementById('adicionarTarefa'.click())
+            }
+        });
+        
+
+    </script>
+</body>
+</html>
