@@ -1,5 +1,10 @@
 # Lista de Tarefas
 
+# Interação com usuário
+
+Aplicação web que interage com o usuário utilizando as funções prompt e confirm do navegador.
+
+
 ### Exercício curso Futuro DEV, semana 03, módulo 2
 
 ## Tecnologia ultilizadas
