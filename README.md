@@ -1,9 +1,14 @@
 # Lista de Tarefas
 
+Lista de tarefas (to-do list), onde o usuário pode adicionar tarefas. Funcionalidades: adicionar novos itens à lista e para tornar a tarefa  feita, clicar no item.
+
 # Interação com usuário
 
 Aplicação web que interage com o usuário utilizando as funções prompt e confirm do navegador.
 
+# Lista de produtos
+
+Página web que exiba uma lista de produtos  para dinamicamente renderizar os produtos na página.
 
 ### Exercício curso Futuro DEV, semana 03, módulo 2
 
