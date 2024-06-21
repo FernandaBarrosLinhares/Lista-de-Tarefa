@@ -14,7 +14,7 @@ Página web que exiba uma lista de produtos  para dinamicamente renderizar os pr
 
 ## Tecnologia ultilizadas
 
-HTML e manipulação do DOM e CSS e eventos
+HTML,manipulação do DOM,  CSS e eventos.
 
 ## Como rodar o projeto
 
